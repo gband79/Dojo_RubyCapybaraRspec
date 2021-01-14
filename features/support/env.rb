@@ -5,6 +5,7 @@ require "selenium-webdriver"
 require "allure-cucumber" 
 require "fileutils"
 require "capybara/rspec"
+require "pry"
 
 FileUtils.rm_f(Dir.glob("logs/*.json"))
 FileUtils.rm_f(Dir.glob("logs/*.png"))

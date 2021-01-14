@@ -1,5 +1,7 @@
 Before do
   @act = Browser.new
+  @shop = Shop.new
+  
   log("\nExecutando o cenário...")
 end
 

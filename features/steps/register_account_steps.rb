@@ -55,7 +55,7 @@ Quando("preencher o formulário de cadastro") do
 
 end
 
-Quando("clicar no botão {string}") do
+Quando("clicar no botão Register") do
     @act.click_on_link("#submitAccount")
 end
 
