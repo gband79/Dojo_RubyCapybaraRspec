@@ -5,8 +5,10 @@ end
 
 
 Quando("selecionar o produto desejado") do
-    @act.scroll_to_element("//img[@title='Blouse']")
+    @act.scroll_to_element('.left-block')
     @shop.select_product('Blouse')
+    @act.click_on_link("#homefeatured")
+    sleep 10
 end
 
 
