@@ -1,7 +1,6 @@
 Before do
   @act = Browser.new
-  @shop = Shop.new
-  
+    
   log("\nExecutando o cenário...")
 end
 
@@ -15,5 +14,5 @@ After do |scenario|
     source: File.open(temp_shot)
   )
   
-  log("Teste finalizado!")
+  log("\nTeste finalizado!")
 end
