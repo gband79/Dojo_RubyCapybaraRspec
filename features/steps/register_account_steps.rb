@@ -34,23 +34,16 @@ Quando("preencher o formulário de cadastro") do
     @act.input_value('#city', "Gulf Shores")
 
     @act.select_from("#uniform-id_state", "Alabama")
-
-    # list_option = find("#uniform-id_state").hover
-    # list_option.find('option', text: 'Alabama').select_option
-    
+        
     @act.click_on_link('#postcode')
     @act.input_value('#postcode', '36542')
 
     @act.select_from("#uniform-id_country", "United States")
-    # list_option = find("#id_country").hover
-    # list_option.find('option', text: 'United States').select_option
-
+    
     @act.click_on_link('#phone_mobile')
     @act.input_value('#phone_mobile', '256-200-0534')
 
-    # @act.click_on_link('#alias')
-    # @act.input_value('#alias', 'Home')
-    
+      
     sleep 5
 
 end
