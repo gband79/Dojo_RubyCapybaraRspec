@@ -18,4 +18,5 @@ class Browser
         list_option.find("option", text: "#{text}").select_option
     end
 
+
 end
